@@ -1,0 +1,82 @@
+body {
+    background:url('/Play_Indie/imgs/icon-music.png') no-repeat center;
+    background-color: black;
+}
+aside {
+    width: 100px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    float: right;
+    margin-right: 50px;
+}
+aside h1 {
+    font-family: Staatliches;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 125px;
+    line-height: 156px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(90deg);
+    margin-top: 35px;
+}
+aside #back {
+    position: absolute;
+    margin-top: 200px;
+    right: 4rem;
+    bottom: 4rem;
+    z-index: 10px;
+    transition: opacity 0.5s;
+}
+aside #back:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition-delay: 0.2s;
+}
+.images-container {
+    display: grid;
+    grid-template-columns: minmax(400px, 1fr) minmax(400px, 1fr) minmax(400px, 1fr) ;
+    margin-top: 30px;
+    margin-left: 150px;
+    align-items: center;
+
+}
+.images-container button img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+.images-container h2 {
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 31,25px;
+    max-width: 300px;
+}
+.images-container h2:hover {
+    cursor:pointer;
+    text-decoration: underline;
+}
+.images-container button {
+    cursor: pointer;
+    border: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 0;
+    background: none;
+    overflow: hidden;
+    transition: opacity 0.5;
+}
+.images-container button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition-delay: 0.2s;
+}
+.capa6{
+    margin-top: 50px;
+}

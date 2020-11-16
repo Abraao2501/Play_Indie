@@ -1,0 +1,63 @@
+body {
+    background:url('/Play_Indie/imgs/icon-music.png') no-repeat center 20px;
+    background-color: black;
+}
+.elements {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.info p {
+    width: 583px;
+    height: 538px;
+    margin-top: 120px;
+    margin-left: 90px;
+    font-family: Staatliches;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.capa img {
+    width: 400px;
+    height: 379px;
+    overflow: hidden;
+    margin-top: 200px;
+    margin-left: 84px;
+    border: 1px solid white;
+}
+.capa .play {
+    width: 160px;
+    height: 50px;
+    border-radius: 35px;
+    margin-top: 30px;
+    margin-left: 195px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.5s 0.3s;
+}
+.capa .play:hover {
+    background-color: rgb(98, 98, 98);
+}
+.capa .play h1 {
+    font-family: Staatliches;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+}
+#back img {
+    cursor: pointer;
+    transition: opacity 0.5s 0.3s;
+}
+#back img:hover {
+    opacity: 0.5;
+}
