@@ -43,7 +43,8 @@ h5 {
     text-align: center;
     color: #000000;
 }
-p{
+
+.card-content p{
     font-family: Staatliches;
     font-style: normal;
     font-weight: normal;
@@ -61,4 +62,37 @@ p{
 audio {
     width: 100%;
     margin-top: 30px;
+}
+#music-list{
+    margin-top: 35px;
+    margin-left: 60px;
+}
+#music-list ul li {
+    margin-top: 15px;
+}
+#music-list ul li a{
+    font-family: Staatliches;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+#music-list ul li a:hover {
+    opacity: 0.3;
+    transition-delay: 0.1s;
+}
+img {
+    position: absolute;
+    margin-top: 300px;
+    right: 4rem;
+    bottom: 4rem;
+    z-index: 10px;
+    transition: opacity 0.5s;
+}
+img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition-delay: 0.2s;
 }
