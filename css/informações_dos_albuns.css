@@ -47,7 +47,8 @@ body {
 .capa .play:hover {
     background-color: rgb(98, 98, 98);
 }
-.capa .play h1 {
+.capa .play a {
+    color: black;
     font-family: Staatliches;
     font-style: normal;
     font-weight: normal;
