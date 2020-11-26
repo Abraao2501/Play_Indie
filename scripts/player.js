@@ -3,9 +3,11 @@ window.player = {
   title: document.querySelector(".card-content h5"),
   artist: document.querySelector(".artist"),
   audio: document.querySelector("audio"),
+
   audioData: album1,
   currentAudio: {},
   currentPlaying: 0,
+  
   start() {
     this.update()
 
