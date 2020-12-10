@@ -14,7 +14,6 @@ mus9 = document.getElementById('9')
 mus10 = document.getElementById('10')
 mus11 = document.getElementById("11")
 mus12 = document.getElementById('12')
-mus13 = document.getElementById('13')
 
 
 const audio = document.querySelector("audio")

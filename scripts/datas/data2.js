@@ -66,7 +66,7 @@ window.album1 = [
         file: "/Play_Indie/musics/albuns/2- Favourite Worst Nightmare/11. Old Yellow Bricks(MP3_70K).mp3"
     },
     {
-        title: "Old Yellow Bricks",
+        title: "505",
         artist: "Arctic Monkeys",
         cover: "/Play_Indie/imgs/capa2.jpg",
         file: "/Play_Indie/musics/albuns/2- Favourite Worst Nightmare/12. 505(MP3_70K).mp3"
